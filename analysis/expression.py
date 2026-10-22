@@ -8,10 +8,18 @@ import os
 import numpy as np
 import pandas as pd
 from scipy import stats
+from pathlib import Path
+
 
 # TODO: temporary, fix before sharing
+<<<<<<< HEAD
 COUNTS = "data/counts.csv"
 CLINICAL = "data/clinical.csv"
+=======
+ROOT = Path.cwd()
+COUNTS = "/Users/msarkis/Documents/projects/rsd/data/counts.csv"
+CLINICAL = "/Users/msarkis/Documents/projects/rsd/data/clinical.csv"
+>>>>>>> path_resolve
 
 
 def load():
