@@ -10,8 +10,8 @@ import pandas as pd
 from scipy import stats
 
 # TODO: temporary, fix before sharing
-COUNTS = "/Users/msarkis/Documents/projects/rsd/data/counts.csv"
-CLINICAL = "/Users/msarkis/Documents/projects/rsd/data/clinical.csv"
+COUNTS = "data/counts.csv"
+CLINICAL = "data/clinical.csv"
 
 
 def load():
